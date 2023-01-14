@@ -163,8 +163,6 @@ body {
 
 header {
   background-color: #ffffff;
-  height: 100vh;
-  margin-bottom: 17.5rem;
   .nav_menu {
     display: flex;
     align-items: center;
@@ -197,6 +195,7 @@ header {
     background-size: cover;
     border-top: 1px solid #d6d6d6;
     .container {
+      margin-bottom: 17.5rem;
       .article {
         padding: 17.5rem 0 34rem 0;
         max-width: 44rem;

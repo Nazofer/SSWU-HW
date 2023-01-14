@@ -159,8 +159,6 @@ body {
 
 header {
   background-color: #ffffff;
-  height: 100vh;
-  margin-bottom: 17.5rem;
 }
 header .nav_menu {
   display: flex;
@@ -188,6 +186,9 @@ header .header_body {
   background: linear-gradient(115deg, rgba(255, 255, 255, 0.9) 18.15%, rgba(0, 0, 0, 0.1) 53.07%), url(../img/bg.png);
   background-size: cover;
   border-top: 1px solid #d6d6d6;
+}
+header .header_body .container {
+  margin-bottom: 17.5rem;
 }
 header .header_body .container .article {
   padding: 17.5rem 0 34rem 0;
