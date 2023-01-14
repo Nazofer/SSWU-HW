@@ -241,20 +241,15 @@ main {
           .title {
             font-size: 3rem;
             line-height: 4.5rem;
-
             color: #000000;
             margin-bottom: 5.5rem;
           }
           .title::before {
             font-family: "Georgia";
-
             font-weight: 400;
             font-size: 15rem;
             line-height: 13.3rem;
             position: absolute;
-            bottom: 0;
-            left: 0;
-
             color: rgba(1, 153, 109, 0.2);
           }
         }
@@ -268,6 +263,8 @@ main {
           text-align: center;
         }
         .title::before {
+          left: 3rem;
+          bottom: 0;
           content: "01";
         }
       }
@@ -278,6 +275,8 @@ main {
         transform: translateY(24rem);
         .title::before {
           content: "02";
+          left: 0;
+          bottom: 0;
         }
       }
       .card3 {
@@ -287,6 +286,8 @@ main {
         }
         .title::before {
           content: "03";
+          left: 2rem;
+          bottom: 0;
         }
       }
     }

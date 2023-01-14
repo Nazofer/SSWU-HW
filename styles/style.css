@@ -233,8 +233,6 @@ main .cards .container .card .header .title::before {
   font-size: 15rem;
   line-height: 13.3rem;
   position: absolute;
-  bottom: 0;
-  left: 0;
   color: rgba(1, 153, 109, 0.2);
 }
 main .cards .container .card .text {
@@ -245,6 +243,8 @@ main .cards .container .card1 .title {
   text-align: center;
 }
 main .cards .container .card1 .title::before {
+  left: 3rem;
+  bottom: 0;
   content: "01";
 }
 main .cards .container .card2 {
@@ -255,6 +255,8 @@ main .cards .container .card2 .title {
 }
 main .cards .container .card2 .title::before {
   content: "02";
+  left: 0;
+  bottom: 0;
 }
 main .cards .container .card3 {
   transform: translateY(1rem);
@@ -264,6 +266,8 @@ main .cards .container .card3 .title {
 }
 main .cards .container .card3 .title::before {
   content: "03";
+  left: 2rem;
+  bottom: 0;
 }
 main .story {
   background-color: #245852;
