@@ -1,0 +1,407 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/*Reset*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/
+html,
+body {
+  font-size: 16px;
+  font-size: 62.5%;
+}
+
+.logo,
+.logo:link,
+.logo:visited,
+.logo:hover,
+.logo:active {
+  font-size: 3.2rem;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+}
+
+.link,
+.link:link,
+.link:visited,
+.link:hover,
+.link:active {
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+  color: #292929;
+}
+
+.button {
+  display: block;
+  text-align: center;
+  background-color: #01996d;
+  padding: 2rem 5rem;
+  border: 0.1rem solid #01996d;
+  border-radius: 0.4rem;
+  width: fit-content;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.container {
+  max-width: 140rem;
+  margin: 0 auto;
+}
+
+.title {
+  font-family: "Georgia";
+  font-weight: 700;
+  font-size: 5rem;
+  line-height: 7.9rem;
+  color: #01996d;
+}
+
+.subtitle {
+  font-family: "Lato";
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 157%;
+  color: #424242;
+}
+
+.text {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 2rem;
+  color: #484848;
+  line-height: 3rem;
+}
+
+header {
+  background-color: #ffffff;
+  height: 100vh;
+  margin-bottom: 17.5rem;
+}
+header .nav_menu {
+  display: flex;
+  align-items: center;
+  padding: 1.7rem 0;
+}
+header .nav_menu .logo {
+  margin-right: 17.2rem;
+  color: #01996d;
+}
+header .nav_menu .main_links {
+  display: inherit;
+  gap: 7.2rem;
+  margin-right: auto;
+}
+header .nav_menu .buttons {
+  display: inherit;
+  gap: 3.5rem;
+  align-items: center;
+}
+header .nav_menu .buttons .button {
+  padding: 1.3rem 5rem;
+}
+header .header_body {
+  background: linear-gradient(115deg, rgba(255, 255, 255, 0.9) 18.15%, rgba(0, 0, 0, 0.1) 53.07%), url(../img/bg.png);
+  background-size: cover;
+  border-top: 1px solid #d6d6d6;
+}
+header .header_body .container .article {
+  padding: 17.5rem 0 34rem 0;
+  max-width: 44rem;
+}
+header .header_body .container .article .title {
+  font-size: 6.5rem;
+  margin-bottom: 2.4rem;
+}
+header .header_body .container .article .text {
+  margin-bottom: 6rem;
+}
+
+main .container .article {
+  display: flex;
+  gap: 13.6rem;
+  margin-bottom: 19rem;
+}
+main .container .article .header {
+  min-width: 58.4rem;
+}
+main .container .article .text {
+  font-weight: 500;
+  align-self: center;
+}
+main .cards .container {
+  display: flex;
+  gap: 9.5rem;
+  margin-bottom: 25.5rem;
+}
+main .cards .container .card .header {
+  position: relative;
+}
+main .cards .container .card .header .title {
+  font-size: 3rem;
+  line-height: 4.5rem;
+  color: #000000;
+  margin-bottom: 5.5rem;
+}
+main .cards .container .card .header .title::before {
+  font-family: "Georgia";
+  font-weight: 400;
+  font-size: 15rem;
+  line-height: 13.3rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: rgba(1, 153, 109, 0.2);
+}
+main .cards .container .card .text {
+  font-weight: 500;
+  margin-bottom: 4rem;
+}
+main .cards .container .card1 .title {
+  text-align: center;
+}
+main .cards .container .card1 .title::before {
+  content: "01";
+}
+main .cards .container .card2 {
+  transform: translateY(24rem);
+}
+main .cards .container .card2 .title {
+  text-align: right;
+}
+main .cards .container .card2 .title::before {
+  content: "02";
+}
+main .cards .container .card3 {
+  transform: translateY(1rem);
+}
+main .cards .container .card3 .title {
+  text-align: center;
+}
+main .cards .container .card3 .title::before {
+  content: "03";
+}
+main .story {
+  background-color: #245852;
+}
+main .story img:hover {
+  cursor: pointer;
+}
+main .story .row {
+  width: min-content;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  padding: 22rem 0 20rem 0;
+}
+main .story .row .article {
+  min-width: 58rem;
+}
+main .story .row .article .title {
+  color: #ffffff;
+  margin-bottom: 3.3rem;
+}
+main .story .row .article .subtitle {
+  color: #ffffff;
+  margin-bottom: 5.7rem;
+}
+main .product {
+  padding: 12rem 0 23rem 0;
+}
+main .product .row {
+  display: flex;
+  gap: 8rem;
+  position: relative;
+}
+main .product .row .subtitle {
+  margin-bottom: 1rem;
+}
+main .product .row .title {
+  margin-bottom: 2rem;
+}
+main .product .row .text {
+  margin-bottom: 4rem;
+}
+main .product .row .customizing-block {
+  box-shadow: 0 3.62px 18.11px 0 rgba(165, 165, 165, 0.25);
+  position: absolute;
+  left: -10%;
+  top: 70%;
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 2.5rem 8.2rem;
+  font-family: "Lato", sans-serif;
+}
+main .product .row .customizing-block .user-thumbnail {
+  text-align: center;
+  color: #000000;
+}
+main .product .row .customizing-block .user-thumbnail .customize-header {
+  border-bottom: 1px solid #000;
+  display: inline-block;
+  font-family: "Lato";
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 157%;
+  padding-bottom: 0.8rem;
+  margin-bottom: 1rem;
+}
+main .product .row .customizing-block .user-thumbnail .user-avatar {
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+}
+main .product .row .customizing-block .user-thumbnail .user-name {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 157%;
+  margin-bottom: 2rem;
+}
+main .product .row .customizing-block .user-subheader {
+  font-weight: 700;
+  font-family: "Georgia", serif;
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem;
+}
+main .product .row .customizing-block ul li {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 157%;
+  list-style-type: disc;
+  list-style-position: inside;
+  margin-bottom: 1.6rem;
+}
+
+.footer {
+  background-color: #245852;
+  padding-bottom: 6.4rem;
+}
+.footer img:hover {
+  cursor: pointer;
+}
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+.footer .container .links1 {
+  display: flex;
+  gap: 6.4rem;
+  flex-direction: column;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+.footer .container .links1 .logo {
+  color: #fff;
+}
+.footer .container .links1 .link {
+  color: #fff;
+}
+.footer .container .social {
+  align-self: flex-end;
+  display: flex;
+  gap: 5rem;
+}
+.footer .container .apps {
+  text-align: center;
+  align-self: flex-end;
+  padding-bottom: 1rem;
+}
+.footer .container .apps .header {
+  color: #fff;
+  margin-bottom: 6.4rem;
+  font-weight: 500;
+  font-size: 2.4rem;
+  font-family: "Lato", sans-serif;
+}
+.footer .container .apps .links2 {
+  display: flex;
+  gap: 1.5rem;
+}
+
+/*# sourceMappingURL=style.css.map */
